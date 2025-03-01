@@ -1,6 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
+}
+/* Navbar Styling */
+.navbar {
+  background-color: rgba(255, 217, 0, 0.712);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4e5964;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 450;
+  transition: color 0.3s ease-in-out;
+  color: #4e5964ce;
+  padding: 8px 15px;
+}
+footer a:hover,
+.navbar-nav .nav-link:hover {
+  text-decoration: none;
+  color: #4e5964;
+}
+
+/* Search Bar */
+.input-group .form-control {
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.input-group-text {
+  border-radius: 0 20px 20px 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background 0.3s;
+  background-color: #4e5964;
+}
+
+.input-group-text i {
+  color: white;
+}
+
+.input-group-text:hover {
+  background: #4e5964ce;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* footer section   */
+footer {
+  background-color: rgba(255, 217, 0, 0.712);
+}
+footer a {
+  color: #4e5964ce;
+  text-decoration: none;
+}
+.row,
+.social-icons {
+  color: #4e5964;
 }

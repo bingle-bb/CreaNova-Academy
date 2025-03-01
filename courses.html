@@ -19,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="courses.css" />
     <title>CreaNova Academy</title>
 
     <link
@@ -32,6 +33,14 @@
   <style>
     .carousel-caption {
       background: rgba(0, 0, 0, 0.5);
+    }
+    .btn {
+      background-color: rgba(255, 217, 0, 0.712); /* Green color before hover */
+      color: #4e5964; /* Text color */
+    }
+    .btn:hover {
+      background-color: rgba(255, 217, 0, 0.562); /* Darker green on hover */
+      color: #4e5964; /* Keep the text color the same */
     }
   </style>
   <body>
@@ -176,149 +185,95 @@
       </button>
     </div>
 
-    <!-- our mentors section  -->
-    <div class="container">
-      <h2 class="border-bottom mt-5">Our Mentors</h2>
+    <!-- card here -->
+    <div class="container my-3">
+      <h2 class="border-bottom mt-5">Frontend Development Courses</h2>
       <div class="row">
         <div class="col-md-4 mt-2">
-          <div class="card">
-            <img
-              src="images/mentor1.jpg"
-              class="card-img-top"
-              alt="mentor image is here"
-            />
+          <div class="card" style="width: 18rem">
+            <img src="images/htmlcss.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Amelia Smith</h5>
+              <h5 class="card-title">HTML & CSS Fundamentals</h5>
               <p class="card-text">
-                Experienced web developer proficient in HTML, CSS, JavaScript,
-                Python, and PHP. Active contributor to open-source projects with
-                over a decade of industry experience.
+                Learn the basics of web development by creating structured web
+                pages with HTML and styling them with CSS. Gain the skills to
+                design and customize layouts.
               </p>
+              <a href="#" class="btn">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-2">
+          <div class="card" style="width: 18rem">
+            <img src="images/js.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">JavaScript Basics</h5>
+              <p class="card-text">
+                Learn the fundamentals of JavaScript to add interactivity to web
+                pages, from handling events to manipulating the DOM and creating
+                dynamic content.
+              </p>
+              <a href="#" class="btn">Enroll Now</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-2">
-          <div class="card">
-            <img
-              src="images/mentor2.jpg"
-              class="card-img-top"
-              alt="mentor image is here"
-            />
+          <div class="card" style="width: 18rem">
+            <img src="images/reactjs.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Emily Johnson</h5>
+              <h5 class="card-title">React.js Essentials</h5>
               <p class="card-text">
-                Web designer and UX/UI specialist with a focus on creating
-                user-friendly websites. Combines skills in graphic design and
-                digital marketing to craft online experiences.
+                Learn the core concepts of React.js, including components,
+                props, and state, to build dynamic and interactive user
+                interfaces for web applications.
               </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-2">
-          <div class="card">
-            <img
-              src="images/mentor3.jpg"
-              class="card-img-top"
-              alt="mentor image is here"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Rachel Patel</h5>
-              <p class="card-text">
-                Full-stack web developer skilled in JavaScript frameworks
-                (React, Angular), Node.js, and databases. Passionate about
-                mentoring and sharing expertise in web development.
-              </p>
+              <a href="#" class="btn">Enroll Now</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- student review section  -->
+    <!-- cards here -->
     <div class="container my-3">
-      <h2 class="border-bottom mt-5">Students Reviews</h2>
+      <h2 class="border-bottom mt-5">Backend Development Courses</h2>
       <div class="row">
         <div class="col-md-4 mt-2">
-          <div class="card">
-            <img
-              src="images/student1.jpg"
-              class="card-img-top"
-              alt="student image is here"
-            />
+          <div class="card" style="width: 18rem">
+            <img src="images/nodejs.png" class="card-img-top" alt="Node.js" />
             <div class="card-body">
-              <p class="card-text text-center">
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-half" style="color: gold"></i>
-              </p>
-              <h5 class="card-title">Zara</h5>
+              <h5 class="card-title">Node.js & Express</h5>
               <p class="card-text">
-                "The MERN stack course was exactly what I needed to kickstart my
-                journey into full-stack development. The instructors provided
-                clear explanations and practical examples that helped me grasp
-                the concepts quickly. I especially appreciated the hands-on
-                projects, which allowed me to apply what I learned in real-world
-                scenarios. Highly recommended for anyone looking to dive into
-                MERN stack development!"
+                Learn how to build server-side applications using Node.js and
+                Express, and manage server requests.
               </p>
+              <a href="#" class="btn">Enroll Now</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-2">
-          <div class="card">
-            <img
-              src="images/student2.jpg"
-              class="card-img-top"
-              alt="student image is here"
-            />
+          <div class="card" style="width: 18rem">
+            <img src="images/mango.png" class="card-img-top" alt="MongoDB" />
             <div class="card-body">
-              <p class="card-text text-center text-primary">
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star" style="color: gold"></i>
-              </p>
-              <h5 class="card-title">Sarah</h5>
+              <h5 class="card-title">MongoDB & NoSQL Databases</h5>
               <p class="card-text">
-                "I found the MERN stack course to be comprehensive and
-                well-structured. The curriculum covered all aspects of building
-                web applications using Express.js, React, and Node.js. The
-                instructors provided excellent support throughout the course,
-                and the interactive exercises reinforced my understanding of key
-                concepts. I feel much more confident in my ability to develop
-                web applications after completing this course."
+                Explore MongoDB and learn how to efficiently store and manage
+                data for web applications.
               </p>
+              <a href="#" class="btn">Enroll Now</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-2">
-          <div class="card">
-            <img
-              src="images/student3.jpg"
-              class="card-img-top"
-              alt="student image is here"
-            />
+          <div class="card" style="width: 18rem">
+            <img src="images/python.png" class="card-img-top" alt="Django" />
             <div class="card-body">
-              <p class="card-text text-center text-primary">
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star-fill" style="color: gold"></i>
-                <i class="bi bi-star" style="color: gold"></i>
-                <i class="bi bi-star" style="color: gold"></i>
-              </p>
-              <h5 class="card-title">Max Smith</h5>
+              <h5 class="card-title">Python & Django Framework</h5>
               <p class="card-text">
-                "The MERN stack course exceeded my expectations in terms of
-                content and delivery. I appreciated the depth of coverage on
-                each component of the stack, from database design with MongoDB
-                to front-end development with React. The hands-on approach,
-                coupled with clear explanations from the instructors, made the
-                learning process enjoyable and engaging. I would highly
-                recommend this course. It's incredibly valuable and well worth
-                the time."
+                Build scalable web applications with Python and the Django
+                framework, focusing on server-side development.
               </p>
+              <a href="#" class="btn">Enroll Now</a>
             </div>
           </div>
         </div>
