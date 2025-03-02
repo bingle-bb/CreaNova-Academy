@@ -5,9 +5,17 @@
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* Navbar Styling */
 .navbar {
-  background-color: #b6b3ae;
+  background-color: #f8f8f8;
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
+  padding: 10px 0;
 }
 
 .navbar-brand {
@@ -25,24 +33,28 @@
   padding: 8px 15px;
 }
 footer a:hover,
-.navbar-nav .nav-link:hover {
+.navbar-nav {
   text-decoration: none;
   color: #4e5964;
+  transition: 0.2s;
 }
-
+.nav-link:hover {
+  border-bottom: 2px solid #495561;
+  transition: 0.1s;
+}
 /* Search Bar */
 .input-group .form-control {
   border-radius: 20px 0 0 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc !important;
   padding: 8px;
 }
 
 .input-group-text {
   border-radius: 0 20px 20px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc !important;
   cursor: pointer;
   transition: background 0.3s;
-  background-color: #4e5964;
+  background-color: #4e5964 !important;
 }
 
 .input-group-text i {
@@ -64,9 +76,12 @@ footer a:hover,
 .navbar-toggler:focus {
   box-shadow: none;
 }
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+}
 /* footer section   */
 footer {
-  background-color: #b6b3ae;
+  background-color: #f8f8f8 !important;
 }
 footer .h5 {
   font-weight: 500;

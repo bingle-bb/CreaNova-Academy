@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon" />
-    <!-- bootstrap css cdn  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,8 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="courses.css" />
-    <title>COURSES | CreaNova</title>
+    <title>ABOUT US | CreaNova</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -28,8 +26,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="courses.css" />
   </head>
   <body>
     <!-- navbar section  -->
@@ -79,7 +77,6 @@
         </div>
       </div>
     </nav>
-
     <!-- slider section  -->
     <div id="slider" class="carousel slide my-3" data-bs-ride="carousel">
       <!-- carousel-indicators -->
@@ -173,100 +170,80 @@
       </button>
     </div>
 
-    <!-- card here -->
-    <div class="container my-3">
-      <h2 class="border-bottom mt-5">Frontend Development Courses</h2>
-      <div class="row">
-        <div class="col-md-4 mt-2">
-          <div class="card" style="width: 18rem">
-            <img src="images/htmlcss.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">HTML & CSS Fundamentals</h5>
-              <p class="card-text">
-                Learn the basics of web development by creating structured web
-                pages with HTML and styling them with CSS. Gain the skills to
-                design and customize layouts.
-              </p>
-              <a href="#" class="btn">Enroll Now</a>
-            </div>
-          </div>
-        </div>
+    <section class="mission">
+      <h2>Our Mission</h2>
+      <p>
+        At CreaNova Academy, we are dedicated to providing high-quality,
+        cutting-edge development education that empowers students to succeed in
+        the rapidly evolving tech industry. Through innovative teaching methods,
+        hands-on projects, and personalized mentorship, we create an immersive
+        learning experience that fosters creativity, critical thinking, and
+        technical expertise. Our goal is not just to teach programming but to
+        inspire the next generation of developers, helping them build the skills
+        needed to tackle real-world challenges and make meaningful contributions
+        to the digital world.
+      </p>
+    </section>
 
-        <div class="col-md-4 mt-2">
-          <div class="card" style="width: 18rem">
-            <img src="images/js.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">JavaScript Basics</h5>
-              <p class="card-text">
-                Learn the fundamentals of JavaScript to add interactivity to web
-                pages, from handling events to manipulating the DOM and creating
-                dynamic content.
-              </p>
-              <a href="#" class="btn">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-2">
-          <div class="card" style="width: 18rem">
-            <img src="images/reactjs.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">React.js Essentials</h5>
-              <p class="card-text">
-                Learn the core concepts of React.js, including components,
-                props, and state, to build dynamic and interactive user
-                interfaces for web applications.
-              </p>
-              <a href="#" class="btn">Enroll Now</a>
-            </div>
-          </div>
-        </div>
+    <section class="who-we-are">
+      <h2>Who We Are</h2>
+      <p>
+        Founded in 2024, CreaNova Academy is led by a team of passionate
+        developers and educators with over 10 years of combined experience in
+        tech and education. We focus on hands-on learning, helping students gain
+        practical skills and real-world knowledge to excel in the tech industry.
+        Our mission is to inspire creativity, foster innovation, and equip the
+        next generation of developers with the tools they need to succeed.
+      </p>
+    </section>
+
+    <section class="our-courses">
+      <h2>Our Courses</h2>
+      <div class="course-card">
+        <h3>Frontend Development</h3>
+        <p>Learn HTML, CSS, JavaScript, and more.</p>
+        <a href="courses.html">Learn More</a>
       </div>
-    </div>
-    <!-- cards here -->
-    <div class="container my-3">
-      <h2 class="border-bottom mt-5">Backend Development Courses</h2>
-      <div class="row">
-        <div class="col-md-4 mt-2">
-          <div class="card" style="width: 18rem">
-            <img src="images/nodejs.png" class="card-img-top" alt="Node.js" />
-            <div class="card-body">
-              <h5 class="card-title">Node.js & Express</h5>
-              <p class="card-text">
-                Learn how to build server-side applications using Node.js and
-                Express, and manage server requests.
-              </p>
-              <a href="#" class="btn">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-2">
-          <div class="card" style="width: 18rem">
-            <img src="images/mango.png" class="card-img-top" alt="MongoDB" />
-            <div class="card-body">
-              <h5 class="card-title">MongoDB & NoSQL Databases</h5>
-              <p class="card-text">
-                Explore MongoDB and learn how to efficiently store and manage
-                data for web applications.
-              </p>
-              <a href="#" class="btn">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-2">
-          <div class="card" style="width: 18rem">
-            <img src="images/python.png" class="card-img-top" alt="Django" />
-            <div class="card-body">
-              <h5 class="card-title">Python & Django Framework</h5>
-              <p class="card-text">
-                Build scalable web applications with Python and the Django
-                framework, focusing on server-side development.
-              </p>
-              <a href="#" class="btn">Enroll Now</a>
-            </div>
-          </div>
-        </div>
+
+      <div class="course-card">
+        <h3>Backend Development</h3>
+        <p>Learn Node.js & Express and more.</p>
+        <a href="courses.html">Learn More</a>
       </div>
-    </div>
+    </section>
+
+    <section class="our-approach">
+      <h2>Our Approach to Learning</h2>
+      <p>
+        Our interactive and practical approach ensures that students can apply
+        what they learn in real-world scenarios...
+      </p>
+    </section>
+
+    <section class="meet-the-team">
+      <h2>Meet The Team</h2>
+      <div class="team-member">
+        <img src="images/mentor3.jpg" alt="Team Member" />
+        <p>Rachel Patel - Founder & Instructor</p>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Students Say</h2>
+      <blockquote>
+        "This academy changed my career! The courses were hands-on and taught by
+        experts."
+      </blockquote>
+      <blockquote>
+        "This academy changed my career! The courses were hands-on and taught by
+        experts."
+      </blockquote>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to Learn With Us?</h2>
+      <a href="contact.html" class="btn">Start Your Journey Today</a>
+    </section>
 
     <!-- footer section  -->
     <footer class="p-3 mt-5">

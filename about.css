@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+/* Mission Section */
+.mission {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.mission h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.mission p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+/* Who We Are Section */
+.who-we-are {
+  background-color: #77c2aec9; /* Light green background */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.who-we-are h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.who-we-are p {
+  font-size: 1.1rem;
+  color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+/* Courses Section */
+.our-courses {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.our-courses h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.course-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.course-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.course-card p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.course-card a {
+  text-decoration: none;
+  color: #77c2ae;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* Approach Section */
+.our-approach {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.our-approach h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.our-approach p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+/* Meet the Team Section */
+.meet-the-team {
+  padding: 60px 20px;
+  background-color: #77c2aed8;
+  text-align: center;
+}
+
+.meet-the-team h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.team-member {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  color: #fff;
+  font-size: 1.1rem;
+}
+/* Testimonials Section */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.testimonials blockquote {
+  font-size: 1.1rem;
+  color: #666;
+  font-style: italic;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+  border-left: 5px solid #77c2ae;
+  padding-left: 20px;
+}
+
+/* Call to Action Section */
+.cta {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #77c2aec4;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 2rem;
+}
+
+.cta .btn {
+  padding: 15px 30px;
+  background-color: #77c2ae; /* Yellow button */
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta .btn:hover {
+  background-color: #71e4c5;
+  transition: 1s;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .course-card {
+    width: 45%;
+  }
+
+  .team-member {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .course-card {
+    width: 100%;
+  }
+
+  .team-member {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+}
