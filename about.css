@@ -186,7 +186,10 @@
   background-color: #71e4c5;
   transition: 1s;
 }
-
+#course:focus {
+  outline: none;
+  box-shadow: none;
+}
 /* Footer */
 footer {
   background-color: #333;

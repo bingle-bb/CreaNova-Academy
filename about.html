@@ -242,11 +242,89 @@
 
     <section class="cta">
       <h2>Ready to Learn With Us?</h2>
-      <a href="contact.html" class="btn">Start Your Journey Today</a>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <!-- Apply glass effect container -->
+            <div class="glass-container">
+              <form action="#" method="post">
+                <!-- Full Name Field with Icon -->
+                <div class="mb-3 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-person"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+
+                <!-- Email Address Field with Icon -->
+                <div class="mb-3 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-envelope"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+
+                <!-- Password Field with Icon -->
+                <div class="mb-3 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-lock"></i
+                  ></span>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+
+                <!-- Course Selection Field with Icon -->
+                <div class="mb-3 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-book"></i
+                  ></span>
+                  <select
+                    class="form-select"
+                    id="course"
+                    name="course"
+                    required
+                  >
+                    <option value="">Choose an option...</option>
+                    <option value="web-development">
+                      Frontend Development
+                    </option>
+                    <option value="c++-programming">Backend Development</option>
+                    <option value="english-language">Git And Github</option>
+                    <option value="korean-language">Discussion</option>
+                  </select>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn w-100">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- footer section  -->
-    <footer class="p-3 mt-5">
+    <footer class="p-3">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mt-2 text-center text-md-start">
